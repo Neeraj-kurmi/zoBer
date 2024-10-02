@@ -30,7 +30,7 @@ function Navbar() {
     }
   };
   return (
-    <div className='bg-slate-300 py-4 '>
+    <div className='bg-slate-00 p-4'>
       <div className="flex items-center justify-between mx-auto max-w-7xl max-h-16">
         <div className="flex flex-row gap-2 items-center">
           <h1 className="text-2xl font-bold">

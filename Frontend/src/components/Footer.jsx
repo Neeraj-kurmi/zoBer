@@ -2,7 +2,8 @@ import React from 'react'
 
 function Footer() {
       return (
-        <footer className="bg-slate-300   py-1">
+        <footer className=" py-1">
+        <hr className='border-gray-700'/>
           <div className="container px-10 mx-auto flex flex-col md:flex-row justify-between">
             <div className="mb-4 md:mb-0">
               <h4 className="text-lg font-semibold">Quick Links</h4>

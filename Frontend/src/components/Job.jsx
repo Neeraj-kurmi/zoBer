@@ -17,7 +17,7 @@ function Job({job}) {
     <motion.div initial={{opacity:0,x:100}}
     animate={{opacity:1,x:0}}
     exit={{opacity:0,x:-100}}
-    transition ={{duration:0.3}} className="p-5 rounded-md shadow-xl  border border-gray-100 bg-slate-300">
+    transition ={{duration:0.3}} className="p-5 rounded-md shadow-xl  border border-gray-100 bg-slate-300 ">
       <div className="flex items-center justify-between">
         <p className="text-sm text-gray-500">Created : {daysAgoFunction(job?.createdAt)==0 ? "Today" :`${daysAgoFunction(job?.createdAt)} days ago`}</p>
         <Button variant="outline" className="rounded-full" size="icon">
