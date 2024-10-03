@@ -91,7 +91,7 @@ function Signup() {
             <Label>Password</Label>
             <Input type="password" placeholder="enter password here..." value={input.password} name="password" onChange={changeEventHandler}></Input>
           </div>
-          <div className="flex items-center justify-between">
+          <div className="md:flex-row items-center justify-between">
             <RadioGroup className="flex items-center gap-4 my-4">
               <div className="flex items-center space-x-2">
                 <Input
